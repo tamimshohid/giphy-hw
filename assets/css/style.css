@@ -1,0 +1,59 @@
+body {
+	background-image: url(../images/background3.png);
+}
+
+html div, html form {
+	border-radius: 5px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+#button-div {
+	background: #49b54d;
+	padding: 20px;
+	margin: 5px;
+	min-height: 150px;
+}
+
+.buttons button {
+	margin: 5px;
+}
+
+.btn {
+	background-color: #49b54d;
+}
+
+.btn:focus, .btn:hover {
+	background-color: #b1dcfb;
+}
+
+form {
+	background: #49b54d;
+	padding: 20px 30px;
+	margin-right: 5px;
+}
+
+input {
+	color: white;
+}
+input:focus, input:hover, input:active {
+	border-bottom: 1px solid #b1dcfb !important;
+	box-shadow: 0 1px 0 0 #b1dcfb !important;
+}
+
+#giphy-div {
+	display: none;
+	overflow: auto;
+    padding: 10px 30px;
+	background-color: #49b54d;
+	margin: 17px;
+}
+
+.gif-display {
+	float: left;
+	margin: 10px;
+	max-width: 375px;
+}
